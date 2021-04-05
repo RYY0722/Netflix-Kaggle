@@ -10,7 +10,8 @@ import numpy as np
 from collections import Counter
 data = pd.read_csv('netflix_titles.csv')
 
-# ------- process the ratio
+# ------- process the rating
+# The ratings are groupped into 3 categories
 
 mature = ['TV-MA','R','PG-13','TV-14','TV-PG','PG','NC-17']
 general = ['NR',np.nan,"G","UR",'TV-G']
